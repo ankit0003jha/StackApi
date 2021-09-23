@@ -1,0 +1,60 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    top: 0px;
+    }
+    
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+    }
+    
+#nav-0{
+    margin: 12px 20px;
+    color: white;
+    text-align: center;
+  }
+body{
+    background-color: rgb(233, 238, 238);
+    }
+      
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+form{
+    padding: 3%;
+}
+.wrapper{
+    width: 100%; text-align: center; padding: 2%;
+} 
+.btn{
+    width: 30%; 
+}
+.card-wrapper{
+    padding: 2%; height: 95vh; overflow-y: scroll;
+}
+.card{
+    width: 50%; margin: 0 auto;
+}
+.pagination{
+
+    width: 10%; margin: 0 auto;
+}
+.page-item{
+    background-color: blue;
+    margin: 0 auto;
+}
+.dpic{
+    width: 200px; height: 200px;
+}
