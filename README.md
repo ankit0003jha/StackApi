@@ -1,5 +1,5 @@
 # StackApi
- Using stackoverflow api we have to scrap question and represent it  in a proper format using all search fields and parameters.
+ Using stackoverflow api we have to scrap question and other owner information and represent it  in a proper format using all search fields and parameters.
 
 
 ## How to run this application on your system.
